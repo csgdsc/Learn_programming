@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul  8 20:34:37 2017
+
+@author: pawan
+"""
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+store = []
+fibo = 0
+fibo2 = 1
+print (fibo) 
+print (fibo2)
+x = range(0,20) 
+for fibo3 in x:
+    fibo3 = fibo + fibo2
+    store.append(fibo3)
+    print (fibo3)
+    fibo = fibo2
+    fibo2 = fibo3
